@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  ul{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  li{
+    cursor: pointer;
+  }
+  

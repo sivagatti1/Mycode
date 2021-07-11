@@ -1,0 +1,9 @@
+<div class="flex m-t-10px" style="flex-wrap: wrap;">
+    <div class="w33 flex j-center align-center m5px col bgrey" *ngFor="let item of productitems" >
+        <img [src]="item.imgsrc" alt="" style="width: 250px;height: 250px;">
+        <div class="flex m-t-10px j-around w100">
+            <button class="btn">Buy Now</button>
+            <button class="btn"  (click)="addtocart(item)">Add to Cart</button>
+        </div>
+    </div>
+</div>

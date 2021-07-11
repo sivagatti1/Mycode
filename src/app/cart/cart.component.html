@@ -1,0 +1,11 @@
+<div style="height: 100vh;">
+    <div *ngFor="let item of cartlist " style="display: flex;"
+    >
+    <div style="padding: 10px;">
+<img [src]="item.imgsrc" alt="" style="height:100px;width:100px">
+</div>
+<div style="padding: 10px;">
+<span>price:</span><span>{{item.price}}</span>
+</div>
+</div>
+</div>
